@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import image1 from "../assets/StudyNexus.png";
 import SectionHeading from "./SectionHeading";
 
 // Icon map for tech badges
