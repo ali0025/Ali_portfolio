@@ -7,7 +7,7 @@ const HeroAvatar = ({ src, alt = "user's picture" }) => {
   return (
     <div className="hero-avatar">
       <picture className="hero-avatar__image">
-        <img src={src} alt={alt} />
+        <img src={src} alt={alt}  loading="lazy" />
       </picture>
     </div>
   );

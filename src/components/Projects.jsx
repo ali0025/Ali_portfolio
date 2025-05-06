@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import image1 from "../assets/studyNexus.png";
+import image2 from "../assets/Image2.png";
+import image3 from "../assets/image3.png";
+import image4 from "../assets/image4.png";
 import SectionHeading from "./SectionHeading";
 
 // Icon map for tech badges
@@ -36,38 +39,40 @@ const data = [
   {
     title: "StudyNexus",
     image: image1,
-    techs: ["React", "Node", "MongoDB", "HTML", "CSS"],
+    techs: ["React", "Node", "MongoDB", "HTML", "CSS", "Express"],
     liveLink: "https://study-nexus-rwkh.vercel.app/",
     githubLink: "https://github.com/ali0025/studyNexus.git",
   },
   {
-    title: "StudyNexus",
-    image: image1,
+    title: "AquaSense Web",
+    image: image2,
     techs: ["React", "Express", "MongoDB", "Node", "HTML", "NextJS"],
-    liveLink: "https://study-nexus-rwkh.vercel.app/",
-    githubLink: "https://github.com/ali0025/studyNexus.git",
+    liveLink: "https://aqua-sense-web-1ogf.vercel.app/",
+    githubLink: "https://github.com/ali0025/AquaSense-Web.git",
   },
   {
-    title: "StudyNexus",
+    title: "Discord Clone",
+    image: image4,
+    techs: ["Firebase", "React",  "HTML", "CSS","NextJS"],
+    liveLink: "https://discord-clone-two-gules.vercel.app/",
+    githubLink: "https://github.com/ali0025/discord-clone",
+  },
+  {
+    title: "Todo App",
+    image: image3,
+    techs: ["HTML", "CSS", "JavaScript", "NextJS"],
+    liveLink: "https://todo-app-eta-orpin.vercel.app/",
+    githubLink: "https://github.com/ali0025/Todo-App.git",
+  },
+  {
+    title: "password generator",
     image: image1,
     techs: ["React", "JavaScript", "HTML", "NextJS", "Node"],
-    liveLink: "https://study-nexus-rwkh.vercel.app/",
-    githubLink: "https://github.com/ali0025/studyNexus.git",
+    liveLink: "https://password-generator-psi-opal.vercel.app/",
+    githubLink: "https://github.com/ali0025/password-generator.git",
   },
-  {
-    title: "StudyNexus",
-    image: image1,
-    techs: ["HTML", "CSS", "JavaScript", "NextJS"],
-    liveLink: "https://study-nexus-rwkh.vercel.app/",
-    githubLink: "https://github.com/ali0025/studyNexus.git",
-  },
-  {
-    title: "StudyNexus",
-    image: image1,
-    techs: ["Firebase", "React", "NextJS"],
-    liveLink: "https://study-nexus-rwkh.vercel.app/",
-    githubLink: "https://github.com/ali0025/studyNexus.git",
-  },
+
+  
   {
     title: "StudyNexus",
     image: image1,
@@ -88,7 +93,7 @@ const Projects = () => {
 
   return (
     <div className="min-h-screen max-w-[1080px] mx-auto w-full bg-[#121212] text-white px-24 sm:px-12 lg:px-8 py-10">
-     <SectionHeading  highlight="Recent" text="Projects" />
+      <SectionHeading highlight="Recent" text="Projects" />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 place-items-center max-w-[1200px] mx-auto">
         {data.slice(0, visibleCount).map((item, index) => (
@@ -96,11 +101,13 @@ const Projects = () => {
             key={index}
             className="bg-[#1e1e1e] rounded-2xl p-4 shadow-md w-full max-w-sm text-white"
           >
-            <img
-              src={item.image}
-              alt={item.title}
-              className="rounded-xl mb-4 w-full"
-            />
+            <div className="h-48 mb-4 overflow-hidden rounded-xl">
+              <img
+                src={item.image}
+                alt={item.title}
+                className="w-full h-full object-cover"
+              />
+            </div>
             <h2 className="text-2xl font-bold mb-4 text-center">{item.title}</h2>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 gap-x-8 justify-center mb-4">
@@ -153,7 +160,7 @@ const Projects = () => {
       <div className="mt-10 text-center">
         <button
           onClick={handleToggle}
-          className="bg-indigo-600 hover:bg-indigo-700 text-lg px-6 py-2 rounded-full transition "
+          className="bg-indigo-600 hover:bg-indigo-700 text-lg px-6 py-2 rounded-full transition"
         >
           {isAllVisible ? "View Less" : "Show More"}
         </button>

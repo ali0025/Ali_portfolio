@@ -7,8 +7,10 @@ import './App.css';
 import Homepage from './pages/Homepage';
 import About from './pages/About';
 import Blog from './pages/Blog';
+import { Analytics } from "@vercel/analytics/react"
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import BlogPost from './pages/Blogposts';
 
 function App() {
   return (
@@ -18,10 +20,13 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
+        
+        <Route path="/article/:slug" element={<BlogPost />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+      <Analytics />
     </div>
   );
 }

@@ -8,7 +8,7 @@ const experiences = [
     {
       title: "MERN Stack Developer",
       description:
-        "Built blockchain apps with Solidity, React.js frontend, and Node.js backend with MongoDB.",
+      "Designed StudyNotion, a MERN stack ed-tech solution, delivering interactive student learning and global instructor content-sharing capabilities.",
       icon: developerIcon,
     },
     {

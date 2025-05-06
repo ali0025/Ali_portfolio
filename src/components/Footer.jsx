@@ -3,7 +3,7 @@ import { FaLinkedin, FaEnvelope, FaPhone } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0a0a0a] text-[#d4d4d4]  pt-6 pb-2 px-3 sm:px-4 border-t border-[#232425] font-poppins">
+    <footer className="bg-[#121212] text-[#d4d4d4]  pt-6 pb-2 px-3 sm:px-4 border-t border-[#232425] font-poppins">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
           {/* About Section */}
