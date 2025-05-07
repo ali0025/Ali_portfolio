@@ -26,7 +26,7 @@ const About = () => {
           {/* Social Links */}
           <div className="space-y-3">
             <a
-              href="https://linkedin.com/in/nayeemhossain"
+              href="https://www.linkedin.com/in/aliansari8179/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-[#666666] hover:text-[#cccccc] transition-colors text-sm sm:text-base"
@@ -35,7 +35,7 @@ const About = () => {
               Follow on LinkedIn
             </a>
             <a
-              href="https://x.com/nayeemhossain"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-[#666666] hover:text-[#cccccc] transition-colors text-sm sm:text-base"
@@ -44,7 +44,7 @@ const About = () => {
               Follow on X
             </a>
             <a
-              href="https://facebook.com/nayeemhossain"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-[#666666] hover:text-[#cccccc] transition-colors text-sm sm:text-base"
@@ -53,7 +53,7 @@ const About = () => {
               Follow on Facebook
             </a>
             <a
-              href="https://github.com/nayeemhossain"
+              href="https://github.com/ali0025"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-[#666666] hover:text-[#cccccc] transition-colors text-sm sm:text-base"
@@ -66,8 +66,8 @@ const About = () => {
           {/* Email */}
           <p className="flex items-center gap-2 text-[#a1a1a1] text-sm sm:text-base mt-4">
             <FaEnvelope className="w-5 h-5 text-[#666666]" />
-            <a href="mailto:nayeem9812@gmail.com" className="hover:text-[#cccccc] transition-colors">
-              nayeem9812@gmail.com
+            <a href="mailto:aliansari8179@gmail.com" className="hover:text-[#cccccc] transition-colors">
+              aliansari8179@gmail.com
             </a>
           </p>
         </div>
@@ -76,7 +76,7 @@ const About = () => {
         <div className="flex justify-center md:justify-end">
           <img
             src={aliimg}
-            alt="Md Nayeem Hossain"
+            alt="Ali Ansari"
             className="w-64 h-64 sm:w-80 sm:h-80 object-cover rounded-3xl border-4 border-[#ffffff]"
           />
         </div>

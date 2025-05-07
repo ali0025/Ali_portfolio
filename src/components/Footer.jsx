@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaLinkedin, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { RiGithubFill, RiCodeSSlashLine, RiLinkedinBoxFill, RiMailLine, RiInstagramLine } from 'react-icons/ri';
 
 const Footer = () => {
   return (
@@ -12,22 +13,24 @@ const Footer = () => {
             <p className="text-xs leading-relaxed">
               Frontend developer with expertise in React, Node.js, and full-stack web development.
             </p>
-            <div className="flex space-x-3">
-              <a
-                href="https://www.linkedin.com/in/aliansari8179/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#d4d4d4]/70 hover:text-[#8b5cf6] transition-colors"
-              >
-                <FaLinkedin className="w-4 h-4" />
-              </a>
-              <a
-                href="mailto:aliansari8179@gmail.com"
-                className="text-[#d4d4d4]/70 hover:text-[#8b5cf6] transition-colors"
-              >
-                <FaEnvelope className="w-4 h-4" />
-              </a>
-            </div>
+           <div className="flex  md:justify-start gap-4 mt-4 text-[#8b5cf6] text-2xl">
+             <a href="https://github.com/ali0025" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400">
+               <RiGithubFill />
+              
+             </a>
+             <a href="https://leetcode.com/u/ali0025/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400">
+               <RiCodeSSlashLine />
+             </a>
+             <a href="https://www.linkedin.com/in/aliansari8179/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400">
+               <RiLinkedinBoxFill />
+             </a>
+             <a href="mailto:aliansari8179@gmail.com" className="hover:text-indigo-400">
+               <RiMailLine />
+             </a>
+             <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400">
+               <RiInstagramLine />
+             </a>
+           </div>
           </div>
 
           {/* Quick Links */}

@@ -128,16 +128,16 @@ const Hero = () => {
   MERN stack engineer skilled in React, Node.js, and MongoDB, building responsive web apps and APIs. Passionate about creating seamless user experiences, advancing expertise in IoT, cloud solutions, UI/UX design, and learning DevOps to optimize development workflows.
 </p>
 <div className="flex justify-center md:justify-start gap-4 mt-4 text-[#8b5cf6] text-2xl">
-  <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400">
+  <a href="https://github.com/ali0025" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400">
     <RiGithubFill />
   </a>
-  <a href="https://leetcode.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400">
+  <a href="https://leetcode.com/u/ali0025/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400">
     <RiCodeSSlashLine />
   </a>
-  <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400">
+  <a href="https://www.linkedin.com/in/aliansari8179/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400">
     <RiLinkedinBoxFill />
   </a>
-  <a href="mailto:yourmail@example.com" className="hover:text-indigo-400">
+  <a href="mailto:aliansari8179@gmail.com" className="hover:text-indigo-400">
     <RiMailLine />
   </a>
   <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400">

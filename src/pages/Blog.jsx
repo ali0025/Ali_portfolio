@@ -74,18 +74,18 @@ const Blog = () => {
   ];
 
   return (
-    <section className="bg-[#121212] text-[#d4d4d4] py-12 px-4 sm:px-6 font-poppins min-h-screen sm:max-w-[1080px] sm:ml-40 ">
-      <div className="max-w-5xl mx-auto">
+    <section className="bg-[#121212]  text-[#d4d4d4] py-12 sm:py-24 px-4 sm:px-6 font-poppins min-h-fit sm:max-w-[1080px] sm:mx-40 ">
+      <div className="max-w-5xl   ">
         <h1 className="text-[#f5f5f5] text-4xl sm:text-5xl font-bold leading-tight mb-4">
           I write about things I’m learning and things I’m building.
         </h1>
         <p className="text-[#d4d4d4] text-sm sm:text-base leading-relaxed mb-12">
           I hope you find something useful here. If you have any questions or feedback, feel free to reach out to me on{' '}
-          <a href="https://x.com" className="text-[#8b5cf6] hover:underline">
+          <a href="" className="text-[#8b5cf6] hover:underline">
             Twitter X
           </a>{' '}
           or{' '}
-          <a href="https://github.com" className="text-[#8b5cf6] hover:underline">
+          <a href="https://github.com/ali0025" className="text-[#8b5cf6] hover:underline">
             GitHub
           </a>.
         </p>
